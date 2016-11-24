@@ -51,4 +51,4 @@ git stash pop 回复隐藏的分支并且删除stash内容
 
 git config --global color.ui true 大部分输出着色
 
-
+git pull origin master（主线） 从远程拉到本地
