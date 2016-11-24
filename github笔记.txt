@@ -1,0 +1,54 @@
+git config --global user.name 'your name'
+git config --global user.email 'email' 配置 git
+
+mkdir xxx 创建目录
+
+cd 进入目录
+
+pwd 显示路径
+
+git init  把当前目录变成git 可以管理的仓库
+
+git add xxx/.(点表示当前所有内容)  把文件添加到资源库
+
+git commit -m '备注信息' 文件提交到仓库
+
+git status 查看状态
+
+git diff 查看详细修改内容
+
+git log 查看修改记录
+
+git reset 命令退回版本
+
+git checkout撤销已经提交到暂存区的修改
+
+git rm xx.xx 删除文件
+
+git remote add origin https://github.com/zzc567898765/learngit.git 第一次本地仓库推送到远程仓库
+
+git push -u origin master
+
+git push origin master（主线） 将本地内容传到远程git库
+
+git branch dev 创建名为dev的分支
+
+git branch 查看当前分支，可以看到所有存在的分支以及master
+
+git checkout dev切换到分支dev上
+
+git checkout -b dev 创建并且切换到新的分支上
+
+git branch -d dev 删除分支dev
+
+git merge dev2 合并分支
+
+git stash 隐藏当前分支
+
+git stash list 查看隐藏现场
+
+git stash pop 回复隐藏的分支并且删除stash内容
+
+git config --global color.ui true 大部分输出着色
+
+
